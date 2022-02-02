@@ -1,0 +1,22 @@
+name: torchlab
+channels:
+- pytorch
+- conda-forge
+dependencies:
+- python=3.8
+- pip
+- pytorch
+- torchvision
+- cudatoolkit=11.3
+- ignite
+- scikit-learn
+- scikit-image
+- matplotlib
+- seaborn
+- pandas
+- pyyaml
+- mako
+- pip:
+  - jupyter
+  - sacred
+  - tqdm
